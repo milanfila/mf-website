@@ -27,6 +27,34 @@ header {
     top: 10px;
 }
 
+nav ul {
+    float: right;
+    margin-top: 40px;
+}
+
+nav ul li{
+
+    display: inline-block;
+    color: #fff;
+    margin-left: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid #fff;
+}
+
+
 .header-text {
     position: absolute;
     top: 50%;
@@ -55,7 +83,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
-    transition: background 0.5s, color 0.5s;
+    background: transparent;
+    
 }
 
 
@@ -63,6 +92,7 @@ header {
 .btn:active {
     background: #fff;
     color: #000;
+    transition: background 0.5s, color 0.5s;
 }
 
 .btn1:link,
@@ -78,7 +108,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
-    transition: background 0.5s, color 0.5s;
+    
+    
 }
 
 
@@ -86,6 +117,7 @@ header {
 .btn1:active {
     background: #fff;
     color: #000;
+    transition: background 0.5s, color 0.5s;
 }
 
 
