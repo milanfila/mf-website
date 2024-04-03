@@ -1,0 +1,94 @@
+* {
+    margin: 0;  /* px is not necessary at 0 value */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** Reusable *****/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/***** Header *****/
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),
+    url("img/mf-colo.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#logo img {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: background 0.5s, color 0.5s;
+}
+
+
+.btn:hover, 
+.btn:active {
+    background: #fff;
+    color: #000;
+}
+
+.btn1:link,
+.btn1:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: background 0.5s, color 0.5s;
+}
+
+
+.btn1:hover,
+.btn1:active {
+    background: #fff;
+    color: #000;
+}
+
+
+.btn-ot {
+    margin-left: 10px;
+}
