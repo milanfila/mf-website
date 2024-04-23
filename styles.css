@@ -237,11 +237,27 @@ nav ul li a:active {
 
 /***** PhotoGallery *****/
 
+.photo-segment li {
+    list-style: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 250px;
+
+}
+
 .photo-segment img {
     width: 100%;
     height: 250px;
-    border-radius: 10px;
-    box-shadow: 4px 6px 10px #000;
+    opacity: 0.5;
+    transform: scale(1.15);
+}
+
+.photo-segment img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+    
+    
 }
 
 
