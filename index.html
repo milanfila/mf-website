@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milan Fila</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="others/grid.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -161,7 +163,8 @@
             </div>
 
         </section>
-
+<!--PhotoGallery-->
+<!--1. version-->
         <section class="photo-gallery">
             <div class="heading-main">
                 <h2>Foto</h2>
@@ -169,22 +172,104 @@
 
             <div class="photos row">
                 <ul class="photo-segment">
-                    <li class="col span-1-of-2"><img src="photogallery-pics/1.jpg" alt=""></li>
-                    <li class="col span-1-of-2"><img src="photogallery-pics/2.jpg" alt=""></li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/1.jpg" data-lightbox="mygallery" data-title="Image 1">
+                            <img src="photogallery-pics/1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/2.jpg" data-lightbox="mygallery" data-title="Image 2">
+                            <img src="photogallery-pics/2.jpg" alt="">
+                        </a>
+                    </li>
                 </ul>
 
                 <ul class="photo-segment">
-                    <li class="col span-1-of-2"><img src="photogallery-pics/3.jpg" alt=""></li>
-                    <li class="col span-1-of-2"><img src="photogallery-pics/4.jpg" alt=""></li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/3.jpg" data-lightbox="mygallery" data-title="Image 3">
+                            <img src="photogallery-pics/3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/4.jpg" data-lightbox="mygallery" data-title="Image 4">
+                            <img src="photogallery-pics/4.jpg" alt="">
+                        </a>
+                    </li>
                 </ul>
 
                 <ul class="photo-segment">
-                    <li class="col span-1-of-2"><img src="photogallery-pics/5.jpg" alt=""></li>
-                    <li class="col span-1-of-2"><img src="photogallery-pics/6.jpg" alt=""></li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/5.jpg" data-lightbox="mygallery" data-title="Image 5">
+                            <img src="photogallery-pics/5.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="col span-1-of-2">
+                        <a href="photogallery-pics/6.jpg" data-lightbox="mygallery" data-title="Image 6">
+                            <img src="photogallery-pics/6.jpg" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
 
         </section>
+
+<!--2. version-->
+        <section class="photo-gallery">
+            <div class="heading-main">
+                <h2>Foto</h2>
+            </div>
+
+            <div class="photos row">
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2">
+                        <div class="image-container">
+                            <img src="photogallery-pics/1.jpg" alt="">
+                            <div class="image-text">Text for Image 1</div>
+                        </div>
+                    </li>
+                    <li class="col span-1-of-2">
+                        <div class="image-container">
+                            <img src="photogallery-pics/2.jpg" alt="">
+                            <div class="image-text">Text for Image 2</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="photos row">
+                    <ul class="photo-segment">
+                        <li class="col span-1-of-2">
+                            <div class="image-container">
+                                <img src="photogallery-pics/3.jpg" alt="">
+                                <div class="image-text">Text for Image 3</div>
+                            </div>
+                        </li>
+                        <li class="col span-1-of-2">
+                            <div class="image-container">
+                                <img src="photogallery-pics/4.jpg" alt="">
+                                <div class="image-text">Text for Image 4</div>
+                            </div>
+                        </li>
+                    </ul>
+                <div class="photos row">
+                    <ul class="photo-segment">
+                        <li class="col span-1-of-2">
+                            <div class="image-container">
+                                <img src="photogallery-pics/5.jpg" alt="">
+                                <div class="image-text">Text for Image 5</div>
+                            </div>
+                        </li>
+                        <li class="col span-1-of-2">
+                            <div class="image-container">
+                                <img src="photogallery-pics/6.jpg" alt="">
+                                <div class="image-text">Text for Image 6</div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+            </div>
+        </section>
+
+
 
 
 
