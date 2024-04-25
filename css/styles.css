@@ -32,6 +32,7 @@ header {
     url("../img/mf-colo.jpg");
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
     
 }
 
@@ -187,6 +188,7 @@ nav ul li a:active {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(../img/mf-colo.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .references h2 {
@@ -349,6 +351,50 @@ input[type="submit"]:hover {
     color: #fff;
     transition: background-color 0.5s, color 0.5s;
 }
+
+
+/***** Footer *****/
+.footer-page {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social p a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social p img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.social p img:hover {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 8px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 
 
