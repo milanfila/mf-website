@@ -1,7 +1,14 @@
 @media only screen and (max-width: 1150px) {
 
+    /***** AboutMe *****/
+    .fila-example img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
-
+    .fila-example .span-1-of-2 {
+        width: 48.3%;
+    }
 
 
     /***** PhotoGallery *****/
