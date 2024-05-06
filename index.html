@@ -10,22 +10,32 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="others/grid.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="js/script.js"></script>
 </head>
 
 <body>
 <!--Header of the website-->
     <header>
         <div class="nav-bar row">
+            
             <div id="logo">
-                <img src="img/fila-sign.png" alt="Milan Fila">
+                <!--<img src="img/fila-sign.png" alt="Milan Fila">-->
             </div>
 
             <nav>
                 <ul>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Dva</a></li>
-                    <li><a href="#">Tři</a></li>
-                    <li><a href="#">Čtyři</a></li>
+                    <li><a href="#" class="jq--scroll-o-mne">O mně</a></li>
+                    <li><a href="#" class="jq--scroll-info">Info</a></li>
+                    <li><a href="#" class="jq--scroll-reference">Reference</a></li>
+                    <li><a href="#" class="jq--scroll-foto">Foto</a></li>
+                    <li><a href="#" class="jq--scroll-zeptejte-se">Zeptejte se</a></li>
                 </ul>
 
             </nav>
@@ -41,7 +51,7 @@
 
     <main>
 <!--AboutMe-->
-        <section class="about-me row">
+        <section class="about-me row jq--o-mne">
             <div class="heading-main">
                 <h2>O mně</h2>
             </div>
@@ -61,7 +71,7 @@
         </section>
 <!--BasicInfo-->           
         <section>
-            <div class="info row">
+            <div class="info row jq--info">
                 <div class="heading-main">
                     <h2>Info</h2>
                 </div>
@@ -115,7 +125,7 @@
             
         </section>
 <!--References-->
-        <section class="references">
+        <section class="references jq--reference">
                 <div class="heading-main">
                     <h2>Reference</h2>
                 </div>
@@ -168,7 +178,7 @@
         </section>
 <!--PhotoGallery-->
 <!--1. version-->
-        <section class="photo-gallery">
+        <section class="photo-gallery jq--foto">
             <div class="heading-main">
                 <h2>Foto</h2>
             </div>
@@ -274,7 +284,7 @@
 
 <!--Form-->
         <section>
-            <div class="heading-main">
+            <div class="heading-main jq--zeptejte-se">
                 <h2>Zeptejte se nás na cokoli</h2>
             </div>
 

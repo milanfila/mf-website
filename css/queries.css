@@ -94,17 +94,14 @@
         /*border: 1px solid red;*/
     }
 
-    .btn {
+    .btn.btn1, .btn.btn-ot {
         display: block;
+        /*border: 1px solid red;*/
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .btn1 {
-        margin-left: 10;
-    
-    }
 
 
 }
