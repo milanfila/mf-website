@@ -13,7 +13,7 @@
 
 .heading-main h2 {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 30px;
 }
 
@@ -23,6 +23,10 @@
     width: 150px;
     border-bottom: 2px solid #000;
     margin: 10px auto;
+}
+
+.empty-space {
+    height: 50px;
 }
 
 /***** Header *****/
@@ -169,6 +173,13 @@ nav ul li a:active {
     margin-left: 10px;
 }
 
+/* Mobile navigation */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+
 
 /***** AboutMe *****/
 
@@ -222,7 +233,7 @@ nav ul li a:active {
 
 .references h2 {
     color:#fff;
-    padding-top: 40px;
+    padding-top: 15px;
 }
 
 .references h2:after {

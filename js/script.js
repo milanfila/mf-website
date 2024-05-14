@@ -54,6 +54,29 @@
             }, 2000);
         });
 
+        /* Mobile navigation */
+        $('.jq--image-hamburger').click(function () {
+
+            $('.nav-background').slideToggle();
+            $('.mobile-nav-back').fadeToggle();
+            $('nav ul').fadeToggle();
+        });
+
+
+        /* Change hamburger to Cross vice versa */
+        $(".jq--image-hamburger").click(function () {
+
+            if ($(".jq--image-hamburger").attr("src") == "img/menu_hamburger.png") {
+                $($(".jq--image-hamburger").attr("src", "img/menu_cross.png"));
+            }
+            else {
+                $($(".jq--image-hamburger").attr("src", "img/menu_hamburger.png"));
+            }
+        });
+
+
+
+
     });
 })(jQuery);
 
