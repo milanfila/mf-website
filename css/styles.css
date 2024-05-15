@@ -52,7 +52,9 @@ header {
 #logo img {
     width: 200px;
     position: absolute;
-    top: 10px;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50);
 }
 
 nav ul {
@@ -81,7 +83,6 @@ nav ul li a:visited {
 
 nav ul li a:hover,
 nav ul li a:active {
-    
     transition: border-bottom 0.5s;
     border-bottom: 2px solid #fff;
 }
