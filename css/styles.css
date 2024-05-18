@@ -393,6 +393,23 @@ input[type="submit"]:hover {
     transition: background-color 0.5s, color 0.5s;
 }
 
+.form-result {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.success {
+    background-color:darkseagreen;
+}
+
+.error {
+    background-color: coral;
+}
+
 
 /***** Footer *****/
 .footer-page {

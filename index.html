@@ -307,6 +307,19 @@
             </div>
 
             <form action="mailer.php" method="post" class="contact-form row">
+
+                <?php
+                if($_GET['success'] == 1) {
+                    echo "<div class=\"form-result success\">Odeslání formuláře proběhlo v pořádku.</div>"
+                } else {
+                    echo "<div class=\"form-result error\">Chyba při odeslání. Zkuste to znovu.</div>"
+                }
+
+                ?php>
+
+                <div class="form-result success">Odeslání formuláře proběhlo v pořádku.</div>
+                <div class="form-result error">Chyba při odeslání. Zkuste to znovu.</div>
+
                 <input type="text" name="name" id="name" placeholder="Vaše jméno"><br>
                 <input type="text" name="surname" id="surname" placeholder="Vaše příjmení"><br>
                 <input type="email" name="email" id="email" placeholder="Váš email"><br>
