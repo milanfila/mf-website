@@ -182,7 +182,7 @@ nav ul li a:active {
 }
 
 
-/***** AboutMe *****/
+/***** Intro *****/
 
 .fila-example img {
     width: 100%;
@@ -192,6 +192,49 @@ nav ul li a:active {
 
 #fila-boty-1 {
     height: 310px;
+}
+
+.slider {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.navigation {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: #fff;
+    transition: background 0.5s;
 }
 
 /***** Info *****/
